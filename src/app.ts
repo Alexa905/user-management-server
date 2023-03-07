@@ -52,7 +52,7 @@ class App {
       },
     });
 
-    this.app.use("/docs", swaggerUiExpress.serve, swaggerUiExpress.setup(spec));
+    this.app.use("/api/docs", swaggerUiExpress.serve, swaggerUiExpress.setup(spec));
   }
 
   public listen() {
