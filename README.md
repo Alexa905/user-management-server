@@ -14,3 +14,4 @@ POSTGRES_DB=users
 ```
 3. Run `yarn start:prod` (will run db migrations as well) or `yarn start` command for development.
 4. To run db migrations deparately please use `migration:run`
+5. Swagger API: `http://localhost:3001/api/docs/`
